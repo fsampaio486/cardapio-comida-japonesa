@@ -1,0 +1,57 @@
+@media screen and (max-width: 40rem) {
+  .menu_hamburguer {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .menu_hamburguer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 100%;
+    background: #e4cbb4;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    color: black;
+  }
+
+  .lista {
+    height: 30vh;
+    margin-top: 3rem;
+  }
+
+  .lista_menu {
+    height: 10vh;
+  }
+
+  .menu_suspenso {
+    display: inline-block;
+    width: 60vw;
+    height: 10vh;
+  }
+
+  .baixar_app {
+    display: inline-block;
+    width: 60vw;
+    height: 18vh;
+    color: #ff0000;
+  }
+
+  .icones_menu_hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+  }
+}

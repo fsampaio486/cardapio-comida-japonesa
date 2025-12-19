@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+  font-size: 16px;
+}
+
+@theme {
+  --color-mint-500: #f8f5f2;
+}
+
+html {
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
